@@ -1,1 +1,21 @@
-# 202531015_Laprak_2_AP1_A
+#include <iostream>
+using namespace std;
+
+int main () {
+		
+	int umur;
+	cout << "Masukkan umur: ";
+	cin >> umur;
+	
+	if (umur < 13) {
+		cout << "SU" << endl;
+	} else if (umur >= 13 && umur <= 16) {
+		cout << "R13" << endl;
+	} else if (umur >= 17 && umur <= 20) {
+		cout << "D17" << endl;
+	} else if (umur >= 21) {
+		cout << "D21" << endl;
+	}
+	
+	return 0;
+ }
