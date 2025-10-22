@@ -10,4 +10,11 @@ Pada laporan parktikum kali ini, Program yang dibuat adalah program sederhana ya
 **else if (umur >= 13 && umur <= 16)** Jika umur antara 13 dan 16, tampilkan "R13". Operator && adalah logika AND, memastikan kedua kondisi benar.
 **else if (umur >= 17 && umur <= 20)** Jika umur antara 17 dan 20, tampilkan "D17".
 **else if (umur >= 21)** Jika umur 21 atau lebih, tampilkan "D21".
-cout << "SU" << endl;: Menampilkan kategori dan endl untuk pindah ke baris baru.
+**cout << "SU" << endl;** Menampilkan kategori dan endl untuk pindah ke baris baru.
+**return 0;** Mengakhiri program dan mengembalikan nilai 0 yang menunjukkan program berjalan.
+Program ini mengelompokkan umur yang di input oleh pengguna kedalam kategori yang ditandai dengan kode ”SU”, ”R13”, ”D17”, dan ”D21” yang berdasarkan pada umur yang ditentukan. Program ini akan berjalan jika input nya sesuai dengan ketentuannya.
+Contoh: 
+	Input : 8  Output : SU
+	Input : 15 Output : R13
+	Input : 20 Output : D17
+	Input : 25 Output : D21
